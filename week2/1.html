@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <div style="border:1px solid black">
+      <h3>&nbsp;세미나 정보</h3>
+      <ol>
+         <li>주제: 차세대 웹 표준 기술 HTML</li>
+         <li>일정: 5월 12일 14:00 ~ 17:00</li>
+         <li>장소: 공학관 2층 세미나실</li>
+         <li>인원: 선착숙 100명</li>
+         <li>비용: 본교 학생 무료 (외부 참가자 5,000원)</li>
+         <li>참가신청: 아래 양식에 빠짐없이 기입하여 접수해 주세요</li>
+      </ol>
+   </div>
+
+   <h3>개인 정보</h3>
+
+   <form>
+   <table style="width:80%" id = "MainTable">
+    <tr> 
+          <td>
+            <table>
+                 <tr><td>이름</td><td><input type="text" name="name"></td></tr>
+                 <tr><td>비밀번호</td><td><input type="password" name="pass"></td><td>(수정시 필요)</td></tr>
+            </table>
+          </td>
+    </tr>
+   </table>
+   </form>
+
+   <h3>참가정보</h3>
+   <div>
+    <form>
+            <fieldset>
+                <legend>참가 유형 선택</legend>
+                <input name="attend_1" type="radio">무료(교내참가자)
+                <input name="attend_2" type="radio">유료(교외참가자)
+            </fieldset>
+    </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <form>
+            <fieldset>
+                <legend>관심 분약 선택</legend>
+                <input name="interest_1" type="radio">HTML5 시맨틱
+                <input name="interest_1" type="radio">CSS3
+                <input name="interest_1" type="radio">Web Storage
+                <input name="interest_1" type="radio">Web Socket
+                <input name="interest_1" type="radio">Canvas
+                <input name="interest_1" type="radio">Geolocation
+            </fieldset>
+        </form>
+    </div>
+
+    <h3>선택사항</h3>
+    <div>
+        <form>
+            <p>
+                직업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="occupation" style="height:25px">
+                    <option value="student">학생</option>
+                    <option value="web_dev">웹개발</option>
+                    <option value="web_design">웹디자인</option>
+                    <option value="edu">교육관련</option>
+                    <option value="etc">기타</option>
+                </select>
+            </p>
+            <p>
+                남길말씀
+                <textarea name="comment" rows="5" cols="50"></textarea><br>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
