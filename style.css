@@ -99,3 +99,24 @@ color: black;
 background-color: #4CAF50;
 color: white;
 }
+table{
+    margin-left: 10%;
+    width:80%;   
+    border: 2px;
+    border-collapse: collapse;
+    border-color: white;
+    color: white;
+}
+th{
+border-style: dashed;
+border:1px;
+font-style:inherit;
+font-size: 19px;
+padding:7px;
+}
+td{
+text-align: center;
+font-size:14px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
