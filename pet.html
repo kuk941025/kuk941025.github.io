@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
     .bg{
-        background-image: url("img/bg_yongsan.png");
+        background-image: url("img/bg_yongsan.jpg");
 
         min-height: 100%;
         background-repeat: no-repeat;
@@ -17,27 +17,13 @@
     .fixed_size{
         width: 70%;
     }
-    table{
-            margin-left: 10%;
-            width:80%;   
-            border: 2px;
-            border-collapse: collapse;
-            border-color: white;
-            color: white;
-    }
-    th{
-        border-style: dashed;
-        border:1px;
-        font-style:inherit;
-        font-size: 19px;
-        padding:7px;
-    }
-    td{
-        text-align: center;
-        font-size:14px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+    .relative_middle{
+    position: relative;
+    width: 70%;
+    left:30%;
+    margin: 0;
+    text-align: center;
+}
     </style>
 </head>
 <body>
@@ -50,12 +36,15 @@
         <div class ="trans_bg default_padding extra_padding">
             <h2>Cholongee</h2>
                 <p class="text_large text_green">
-                    초롱이 Female<br>13 Years Old Maltese   
+                    초롱이 Female<br>14 Years Old Maltese   
                 </p>
         </div>
 
-        <div class="relative_right">
-
+        <div class="relative_middle">
+            <h2 class="no_margin">All ABout Cholong</h2>
+            <div class="trans_bg default_padding no_margin fixed_size extra_padding_vertical">
+                <img src="img/cholong.png" width="450px" height="600px">
+            </div>
         </div>
         <div style="height:5%"></div>
     </div>
